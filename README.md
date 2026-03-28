@@ -245,37 +245,3 @@ Made with ☕ by the VoyageIQ Team
  
 </div>
 
- 
-## 🌐 Deployment
- 
-| App | Platform | Trigger |
-|---|---|---|
-| 🎨 Frontend | [Vercel](https://vercel.com) | Auto-deploys when `main` is updated |
-| ⚙️ Backend | [Render](https://render.com) | Auto-deploys when `main` is updated |
-| 🗄️ Database | [Supabase](https://supabase.com) | Managed PostgreSQL — always on |
- 
-### Deploy Settings
- 
-**Vercel (Frontend)**
-- Root Directory: `frontend`
-- Framework: Next.js
- 
-**Render (Backend)**
-- Root Directory: `backend`
-- Build Command: `npm install && npx prisma generate`
-- Start Command: `npm start`
- 
-> 💡 Never push directly to `main`. Merge `dev` → `main` only when a version is stable and tested.
- 
----
- 
-<div align="center">
- 
-<br />
- 
-Made with ☕ by the VoyageIQ Team
- 
-<br />
- 
-</div>
-
