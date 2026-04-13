@@ -116,7 +116,7 @@ Make sure you have these installed before starting:
  
 ```bash
 git clone https://github.com/YOUR-USERNAME/voyageiq.git
-cd voyageiq
+cd VoyageIQ
 ```
  
 ### 2. Switch to the Dev Branch
@@ -130,7 +130,7 @@ git checkout dev
 ### 3. Install All Dependencies
  
 ```bash
-npm run install:all
+npm install all
 ```
  
 This installs packages for the root, frontend, and backend in one command.
